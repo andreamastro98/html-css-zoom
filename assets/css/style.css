@@ -27,6 +27,7 @@ img{
 
 .main{
     height: 90%;
+    padding-top: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
  }
@@ -37,13 +38,101 @@ img{
 }
 
 .card{
-    width: calc(97% / 7);
-    height: 20%;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    width: 14%;
+    height: 16%;
 }
 
 .footer{
     height: 10%;
     background-color: #222222;
 }
+
+.label{
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding: 4px 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ft-left{
+    align-self: center;
+    padding-left: 10px;
+}
+
+.ft-center{
+    align-self: center;
+}
+
+.ft-right{
+    align-self: center;
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.footer i{
+    color: white;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.white{
+    color: white;
+    
+}
+
+.font{
+    font-size: 13px;
+}
+
+.margin-left-right{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
+}
+
+.padding-span{
+    padding: 13px 0;
+}
+
+.col{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.red-span{
+    color: red;
+}
+
+.labels{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.labels>i{
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 0;
+    padding: 4px 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1;
+}
+
+
+
