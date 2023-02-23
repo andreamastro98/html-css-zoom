@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.width{
+    width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.flex{
+    display: flex;
+}
+
+.viewport{
+    height: 100vh;
+    background-color: black;
+}
+
+.main{
+    height: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    width: calc(97% / 7);
+    height: 20%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.footer{
+    height: 10%;
+    background-color: #222222;
+}
