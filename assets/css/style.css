@@ -35,7 +35,7 @@ img{
 }
 
 .main{
-    height: 90%;
+    height: 92%;
     padding-top: 45px;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,7 +52,7 @@ img{
 }
 
 .footer{
-    height: 10%;
+    height: 8%;
     background-color: #222222;
 }
 
