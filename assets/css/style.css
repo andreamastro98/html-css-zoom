@@ -34,6 +34,10 @@ img{
     right: 5px;
 }
 
+.z-index-1{
+    z-index: 1;
+}
+
 .main{
     height: 92%;
     padding-top: 45px;
@@ -44,6 +48,7 @@ img{
 .container{
     width: 90%;
     margin: auto;
+    align-items: center;
 }
 
 .card{
@@ -64,6 +69,8 @@ img{
     padding: 4px 6px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* footer */
 
 .footer{
     justify-content: space-between;
@@ -144,3 +151,4 @@ img{
 .green i{
     color: rgb(78, 255, 78);
 }
+
